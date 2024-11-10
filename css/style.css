@@ -1,0 +1,71 @@
+body {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Estilos del menú */
+#menu-seleccion {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Sección de presentación */
+#presentacion {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Imagen de perfil */
+#presentacion img {
+    margin-bottom: 20px;  /* Espacio debajo de la imagen */
+    width: 150px;         /* Ancho de la imagen */
+    height: 150px;        /* Altura de la imagen */
+    object-fit: cover;    /* Asegura que la imagen se recorte adecuadamente */
+}
+
+/* Estilo del título */
+#presentacion h1 {
+    color: #007bff;
+}
+
+/* Botón de CV */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+/* Botón personalizado */
+a.btn {
+    border-radius: 25px;  /* Bordes redondeados */
+    padding: 12px 30px;    /* Aumentar el tamaño del botón */
+    text-align: center;    /* Asegura que el texto esté centrado */
+    font-size: 18px;       /* Ajustar el tamaño de la fuente */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Efecto al pasar el ratón */
+}
+
+/* Asegurarse de que el botón se centre */
+.text-center {
+    text-align: center;
+}
+
+/* Botón personalizado */
+a.btn {
+    border-radius: 25px;  /* Bordes redondeados */
+    padding: 12px 30px;    /* Aumentar el tamaño del botón */
+    font-size: 18px;       /* Ajustar el tamaño de la fuente */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Efecto al pasar el ratón */
+}
+
+a.btn:hover {
+    background-color: #0056b3;  /* Cambio de color al pasar el ratón */
+    transform: translateY(-3px); /* Efecto de elevación al pasar el ratón */
+}
+
+.nav-link i {
+    font-size: 1.2em; /* Ajusta el tamaño del ícono */
+    color: #333; /* Cambia el color si lo deseas */
+    margin-right: 5px; /* Espacio entre el ícono y el texto */
+}

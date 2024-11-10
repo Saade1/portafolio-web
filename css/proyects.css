@@ -1,0 +1,55 @@
+/* Estilos generales */
+body {
+    background-color: #f4f6f9;
+    font-family: Arial, sans-serif;
+}
+
+/* Sección de proyectos */
+#projects {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+#projects h2 {
+    color: #ff002b;
+    font-weight: bold;
+}
+
+.project .card {
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.project .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Carrusel de imágenes */
+.carousel-inner img {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.technologies-used h4 {
+    color: #333;
+    font-weight: bold;
+}
+
+.technologies-used .badge {
+    margin: 5px;
+    font-size: 0.9rem;
+    padding: 8px 12px;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    font-size: 0.9rem;
+}
+
+.btn-outline-dark:hover {
+    background-color: #333;
+    color: #fff;
+    border-color: #333;
+}

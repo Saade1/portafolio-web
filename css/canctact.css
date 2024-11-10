@@ -1,0 +1,52 @@
+/* Estilo para la sección de contactos */
+#contactos {
+    background-color: #f8f9fa;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contactos h1 {
+    color: #007bff;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.contact-item i {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-right: 10px;
+}
+
+.contact-item i.bi-whatsapp {
+    color: #25D366;
+}
+
+.contact-link:hover {
+    color: #128C7E;
+}
+
+
+.contact-link {
+    text-decoration: none;
+    color: #333;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}

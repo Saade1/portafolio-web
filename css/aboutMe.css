@@ -1,0 +1,9 @@
+/* Cambia el color de todos los h1 */
+h1 {
+    color: #0056b3; /* Aquí puedes poner el color que prefieras */
+}
+
+/* Si quieres cambiar el color solo para esta sección */
+#presentacion h1 {
+    color: #0056b3; /* Cambia este valor por el color deseado */
+}
